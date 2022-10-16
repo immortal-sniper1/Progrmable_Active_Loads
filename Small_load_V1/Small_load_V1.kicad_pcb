@@ -246,10 +246,10 @@
       (net 1 "GND") (pintype "passive") (tstamp 80216a95-3622-43ba-8459-747c59fa04d8))
     (pad "1" thru_hole circle (at 12.7 0) (size 6 6) (drill 3.5) (layers *.Cu *.Mask)
       (net 1 "GND") (pintype "passive") (tstamp fd570908-19c3-48a6-8f62-bfc860666e12))
-    (model "${KICAD6_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_Fischer_SK104-STCB_35x13mm__2xDrill3.5mm_ScrewM3.wrl"
-      (offset (xyz 0 0 0))
+    (model "C:/Users/robert_alfred.kecs/Documents/KiCad/my_3D_models/random_from_online/CUI_DEVICES_HSE-B20500-040H-01.step"
+      (offset (xyz 0 0 1))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 180 0 0))
     )
   )
 
@@ -451,7 +451,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 5A19A420) (tstamp b757e497-dfad-4347-8d08-1ec88ce66ce4)
-    (at 198.6534 86.4108)
+    (at 102.5906 112.3442)
     (descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x02 2.54mm single row")
     (property "Sheetfile" "Small_load_V1.kicad_sch")
@@ -629,7 +629,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" (layer "F.Cu")
     (tedit 5A0AB76C) (tstamp dad4c842-5136-4d8f-978c-8505b6d3919e)
-    (at 203.8334 86.4108)
+    (at 107.7706 112.3442)
     (descr "5-pin SOT23 package")
     (tags "SOT-23-5 hand-soldering")
     (property "Sheetfile" "Small_load_V1.kicad_sch")
