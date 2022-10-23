@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "i2c-lcd.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -112,6 +112,13 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
+  lcd_init();  //start LCD
+  lcd_send_string("cava txt");
+  HAL_Delay(5000);
+  lcd_clear();
+  lcd_put_cur(1,0);
+  lcd_send_string("ceva txt22");
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -121,6 +128,8 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+
+	  // void loop is here
   }
   /* USER CODE END 3 */
 }
