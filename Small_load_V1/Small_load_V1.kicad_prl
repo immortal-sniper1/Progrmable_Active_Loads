@@ -39,6 +39,7 @@
       9,
       10,
       11,
+      12,
       13,
       14,
       15,
@@ -63,8 +64,8 @@
       35,
       36
     ],
-    "visible_layers": "fffd000_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "ffff000_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "Small_load_V1.kicad_prl",
