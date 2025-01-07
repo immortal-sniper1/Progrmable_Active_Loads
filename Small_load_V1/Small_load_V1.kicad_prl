@@ -64,8 +64,14 @@
       35,
       36
     ],
-    "visible_layers": "fffb020_ffffffff",
+    "visible_layers": "fffb000_ffffffff",
     "zone_display_mode": 1
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "Small_load_V1.kicad_prl",
